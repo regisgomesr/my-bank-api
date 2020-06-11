@@ -2,8 +2,12 @@ import express from 'express';
 import { promises } from 'fs';
 import winston from 'winston';
 import accountsRouter from './routes/accounts.js';
+import swaggerUi from 'swagger-ui-express';
+
+import { swaggerDocument } from './doc.js';
 
 const app = express();
+
 
 const writeFile = promises.writeFile;
 const readFile = promises.readFile;
@@ -30,6 +34,7 @@ global.logger = winston.createLogger({
 
 app.use(express.json());
 app.use('/account', accountsRouter);
+app.use('/doc', swaggerUi.server, swaggerUi.setup(swaggerDocument));
 
 // app.get('/', function(req, res) {
 //   res.send('Hello world!!!');
