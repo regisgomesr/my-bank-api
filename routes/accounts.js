@@ -1,5 +1,12 @@
 import express from 'express';
 import { promises } from 'fs';
+import cors from 'cors';
+
+// cors para dar segurança a nossa API restringindo o que o usuario dela pode ou
+// não usar. Para definir quais metodos podem usar.
+// na definição da rota. 
+// ex: router.get('/', cors(), async (_, res) => { = Define que só podem acesar get
+
 
 const router = express.Router();
 
@@ -35,7 +42,7 @@ router.post('/', async (req, res) => {
   
 });
 
-router.get('/', async (_, res) => {
+router.get('/', cors(), async (_, res) => {
 
   try {
     let data = await readFile(global.fileName, 'utf8');

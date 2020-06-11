@@ -3,8 +3,8 @@ import { promises } from 'fs';
 import winston from 'winston';
 import accountsRouter from './routes/accounts.js';
 import swaggerUi from 'swagger-ui-express';
-
 import { swaggerDocument } from './doc.js';
+import cors from 'cors';
 
 const app = express();
 
@@ -33,6 +33,7 @@ global.logger = winston.createLogger({
 });
 
 app.use(express.json());
+app.use(cors());
 app.use('/account', accountsRouter);
 app.use('/doc', swaggerUi.server, swaggerUi.setup(swaggerDocument));
 
