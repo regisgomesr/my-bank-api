@@ -1,0 +1,71 @@
+2020-06-10T01:13:35.968Z [my-bank-api] info: API Started!
+2020-06-10T01:16:53.707Z [my-bank-api] info: API Started!
+2020-06-10T01:17:29.090Z [my-bank-api] info: POST / account - {"id":14,"name":"Theo","balance":500}
+2020-06-10T01:19:25.055Z [my-bank-api] info: API Started!
+2020-06-10T01:21:31.950Z [my-bank-api] info: API Started!
+2020-06-10T01:22:15.835Z [my-bank-api] info: API Started!
+2020-06-10T01:23:22.316Z [my-bank-api] info: API Started!
+2020-06-10T01:26:47.802Z [my-bank-api] info: API Started!
+2020-06-10T01:26:57.596Z [my-bank-api] info: GET / account/:id - {"id":1,"name":"Preta","balance":220}
+2020-06-10T01:28:35.536Z [my-bank-api] info: API Started!
+2020-06-10T01:29:41.460Z [my-bank-api] info: API Started!
+2020-06-10T01:33:18.835Z [my-bank-api] info: API Started!
+2020-06-10T01:34:44.358Z [my-bank-api] info: API Started!
+2020-06-10T01:35:12.033Z [my-bank-api] info: GET / account
+2020-06-10T01:36:44.215Z [my-bank-api] info: API Started!
+2020-06-10T01:37:06.290Z [my-bank-api] info: API Started!
+2020-06-10T01:37:18.850Z [my-bank-api] info: GET / account
+2020-06-10T01:37:29.348Z [my-bank-api] error: DELETE / account - params is not defined
+2020-06-10T01:37:36.424Z [my-bank-api] info: GET / account
+2020-06-10T01:38:13.075Z [my-bank-api] info: API Started!
+2020-06-10T01:38:19.672Z [my-bank-api] info: GET / account
+2020-06-10T01:38:29.997Z [my-bank-api] info: DELETE / account/:id - 9
+2020-06-10T01:38:43.939Z [my-bank-api] info: DELETE / account/:id - 9
+2020-06-10T01:39:14.056Z [my-bank-api] info: API Started!
+2020-06-10T01:39:45.706Z [my-bank-api] info: API Started!
+2020-06-10T01:40:02.604Z [my-bank-api] info: GET / account
+2020-06-10T01:40:11.526Z [my-bank-api] info: GET / account/:id - {"id":2,"name":"maria","balance":30}
+2020-06-10T01:40:57.470Z [my-bank-api] info: API Started!
+2020-06-10T01:40:59.326Z [my-bank-api] error: GET / account/:id - err is not defined
+2020-06-10T01:41:10.637Z [my-bank-api] info: API Started!
+2020-06-10T01:41:22.321Z [my-bank-api] error: GET / account/:id - err is not defined
+2020-06-10T01:42:40.877Z [my-bank-api] info: API Started!
+2020-06-10T01:42:46.602Z [my-bank-api] info: POST / account - {"id":15,"name":"Theo","balance":500}
+2020-06-10T01:43:02.400Z [my-bank-api] info: GET / account/:id - {"id":3,"name":"Joao","balance":350}
+2020-06-10T01:43:16.552Z [my-bank-api] info: GET / account
+2020-06-10T01:43:44.952Z [my-bank-api] info: DELETE / account/:id - 15
+2020-06-10T01:43:55.597Z [my-bank-api] info: DELETE / account/:id - 15
+2020-06-10T01:44:27.126Z [my-bank-api] info: GET / account
+2020-06-10T01:44:55.182Z [my-bank-api] info: GET / account
+2020-06-10T01:46:49.735Z [my-bank-api] info: API Started!
+2020-06-10T01:47:07.365Z [my-bank-api] info: PUT / account - [object Object]
+2020-06-10T01:48:01.752Z [my-bank-api] info: API Started!
+2020-06-10T01:48:08.993Z [my-bank-api] info: PUT / account - {"id":6,"name":"preta pretinha","balance":1300}
+2020-06-10T01:48:34.760Z [my-bank-api] info: API Started!
+2020-06-10T01:48:44.278Z [my-bank-api] info: PUT / account - {"nextId":16,"accounts":[{"id":1,"name":"Preta","balance":220},{"id":2,"name":"maria","balance":30},{"id":3,"name":"Joao","balance":350},{"id":4,"name":"Theo","balance":90},{"id":5,"name":"Manoel","balance":600},{"id":6,"name":"Manoel","balance":1900}]}
+2020-06-10T01:50:17.454Z [my-bank-api] info: API Started!
+2020-06-10T01:50:26.635Z [my-bank-api] info: PUT / account - {"id":6,"name":"preta pretinha","balance":1200}
+2020-06-10T01:52:29.018Z [my-bank-api] info: API Started!
+2020-06-10T01:52:42.806Z [my-bank-api] info: POST / account/transaction - {"id":6,"balance":-200}
+2020-06-10T01:52:46.484Z [my-bank-api] info: POST / account/transaction - {"id":6,"balance":-200}
+2020-06-10T01:53:25.002Z [my-bank-api] info: POST / account/transaction - {"id":6,"balance":1200}
+2020-06-10T01:53:26.117Z [my-bank-api] info: POST / account/transaction - {"id":6,"balance":1200}
+2020-06-10T01:53:48.379Z [my-bank-api] info: POST / account/transaction - {"id":6,"balance":575}
+2020-06-10T03:08:30.088Z [my-bank-api] info: API Started!
+2020-06-10T03:08:39.374Z [my-bank-api] info: GET / account
+2020-06-10T03:08:43.063Z [my-bank-api] info: GET / account/:id - {"id":3,"name":"Joao","balance":350}
+2020-06-10T03:08:49.231Z [my-bank-api] info: POST / account - {"id":16,"name":"Theo","balance":500}
+2020-06-10T03:09:01.457Z [my-bank-api] info: GET / account
+2020-06-10T03:09:16.380Z [my-bank-api] info: PUT / account - {"id":6,"name":"manoel","balance":1200}
+2020-06-10T03:09:16.473Z [my-bank-api] info: PUT / account - {"id":6,"name":"manoel","balance":1200}
+2020-06-10T03:09:23.289Z [my-bank-api] info: GET / account/:id - {"id":6,"name":"Manoel","balance":1200}
+2020-06-10T03:09:30.830Z [my-bank-api] info: POST / account/transaction - {"id":6,"balance":575}
+2020-06-10T03:09:32.219Z [my-bank-api] info: POST / account/transaction - {"id":6,"balance":575}
+2020-06-10T03:09:33.657Z [my-bank-api] info: POST / account/transaction - {"id":6,"balance":575}
+2020-06-10T03:09:39.191Z [my-bank-api] info: POST / account/transaction - {"id":6,"balance":20}
+2020-06-10T03:09:39.798Z [my-bank-api] info: POST / account/transaction - {"id":6,"balance":20}
+2020-06-10T03:09:40.370Z [my-bank-api] info: POST / account/transaction - {"id":6,"balance":20}
+2020-06-10T03:09:45.937Z [my-bank-api] info: POST / account/transaction - {"id":6,"balance":-20}
+2020-06-10T03:09:47.044Z [my-bank-api] info: POST / account/transaction - {"id":6,"balance":-20}
+2020-06-10T03:09:48.813Z [my-bank-api] info: POST / account/transaction - {"id":6,"balance":-20}
+2020-06-10T03:24:19.928Z [my-bank-api] info: API Started!
